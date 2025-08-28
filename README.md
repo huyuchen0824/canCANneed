@@ -16,7 +16,7 @@ canCANneed was started to break those trade-offs:
 | **Latency spikes** | Event-triggered arbitration (CAN) or static TDMA (FlexRay) | Deterministic time-slot scheduler with micro-slot pre-emption |
 | **Speed ceiling** | 8 Mbps (CAN-FD) / 10 Mbps (10Base-T1S) | 20 Mbps+ on the same two-wire differential pair |
 | **EMC & length** | Add shielding, drop speed | Differential + active wave-shaping keeps 20 m @ 20 Mbps unshielded |
-| **Migration cost** | New cabling, new PHY | Existing CAN twisted pair reused; backward decode mode allows “CAN-classic” frames on the same bus segment |
+| **Migration cost** | new PHY | As cheap as new PHY |
 
 ---
 

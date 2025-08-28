@@ -1,7 +1,6 @@
 # canCANneed
-canCANneed is a newly designed protocol intended as an upward substitution for existing CAN protocols. It focuses on the emerging demand for highly robust communication in robotics and automotive applications. The specification is currently in the draft stage, and all comments and suggestions are welcome.
+canCANneed is a newly designed protocol intended as an upward substitution for existing communication protocols. It focuses on the emerging demand for highly robust communication in robotics and automotive applications. 
 > ⚠️ **Draft Alert** – the spec is still under active development; issues, PRs, and wild ideas are all welcome!
-
 ---
 ## Why another protocol?
 Automotive and robotics stacks already sport a crowded zoo of buses—**CAN/CAN-FD/CAN-XL**, **FlexRay**, **EtherCAT**, **10Base-T1S**, **LIN**, etc.  
